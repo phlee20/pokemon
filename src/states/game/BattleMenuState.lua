@@ -16,6 +16,8 @@ function BattleMenuState:init(battleState)
         y = VIRTUAL_HEIGHT - 64,
         width = 64,
         height = 64,
+        font = gFonts['medium'],
+        cursor = true,
         items = {
             {
                 text = 'Fight',
